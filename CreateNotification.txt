@@ -188,7 +188,7 @@ do
 			end
 		end
 	end)
-	getgenv().CreateNotification = CreateNotification
+	return CreateNotification
 	--how to create notification
 	--CreateNotification("cheat loaded!!!!!", Color3.fromRGB(255,255,255))
 end
